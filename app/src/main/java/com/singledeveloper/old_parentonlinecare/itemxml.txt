@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    app:cardCornerRadius="5dp"
+    android:elevation="5dp"
+    style="@style/CardView.Light"
+    android:background="@drawable/mygradient"
+    app:cardUseCompatPadding="true">
+
+<!--<androidx.constraintlayout.widget.ConstraintLayout-->
+<!--    android:layout_marginBottom="12dp"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/titletextview"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        android:textColor="#DE00000"-->
+<!--        android:textAppearance="@style/TextAppearance.AppCompat.Medium"-->
+<!--        app:layout_constraintBottom_toTopOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+
+<!--/>-->
+
+<!--    <ru.embersoft.expandabletextview.ExpandableTextView-->
+<!--        android:id="@+id/descTextView"-->
+<!--        style="@style/TextAppearance.AppCompat.Body1"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginEnd="8dp"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        app:etv_animationTime="20"-->
+<!--        app:etv_expandLines="0"-->
+<!--        app:etv_showLine="false"-->
+<!--        app:etv_textContentColor="#8A000000"-->
+<!--        app:etv_textContentSize="14sp"-->
+<!--        app:etv_textExpand="show more"-->
+<!--        app:etv_textShrink="show less"-->
+<!--        app:etv_textStateColor="#8A000000"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+
+
+
+
+
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+    </androidx.cardview.widget.CardView>

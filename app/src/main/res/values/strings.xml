@@ -1,0 +1,74 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Old-Parent Online Care</string>
+    <string name="welcome_to_our_family">Welcome to Our Family</string>
+    <string name="enter_name">Enter Full Name</string>
+    <string name="details_summary_new_member">!!! New Member !!! Add Name :   </string>
+    <string name="add_details_correctly">Add Details Correctly</string>
+    <string name="summary_email_subject">!!! New Family Member want to Join !!! </string>
+    <string name="name_of_person">Name: <xliff:g example="Amy" id="name">%s</xliff:g></string>
+    <string name="age_of_person">Age: <xliff:g example="18" id="age">%s</xliff:g></string>
+    <string name="gender_of_person">Gender: <xliff:g example="M" id="gender">%s</xliff:g></string>
+    <string name="address_of_person">Address: <xliff:g example="Janakpur" id="address">%s</xliff:g></string>
+    <string name="phone_of_person">Phone: <xliff:g example="981XXXXXXX" id="phone">%s</xliff:g></string>
+    <string name="persons_caretaker_phone">FamilyPhone: <xliff:g example="91XXXXXXX" id="family_phone">%s</xliff:g></string>
+    <string name="persons_health">FamilyPhone: <xliff:g example="Healthy/Unhealthy" id="health">%s</xliff:g></string>
+
+    <!-- Thank you message for the order summary. [CHAR LIMIT=NONE] -->
+    <string name="thank_you">Thank you!\n Kindly Upload 1 Recent Photo  </string>
+    <string name="title_activity_doante">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="home">Home</string>
+    <string name="gender">Gender</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="address">Address</string>
+    <string name="contact">Contact</string>
+
+    <!-- ALl string  is written here mainly details of oldagehome -->
+
+    <string name="oldagehome1_title">Sri Sathya Sai Seva Organization Nepal</string>
+    <string name="oldagehome1_desc">Sri Sathya Sai Seva Organization Nepal\nAddress:  514 Sama Marga, Chardhunge, Naxal, Kathmandu, Nepal\nTel:+977-1-4416890, 4436787\n"Email:satya@wlink.com.np"\n"Website:http://srisathyasai.org.np"</string>
+
+    <string name="oldagehome2_title">Matatirtha Oldage Home Committee</string>
+    <string name="oldagehome2_desc"> Matatirtha Oldage Home Committee\n
+        Social club in Chandragiri Municipality\n
+        Address: Chandragiri 44600\n
+        Phone: 01-4312590 </string>
+
+    <string name="oldagehome3_title">Panchawoti Home</string>
+    <string name="oldagehome3_desc">Panchawoti Home\n
+        Retirement home in Mahamanjushree Nagarkot\n
+        Address: Mahamanjushree Nagarkot\n
+        Phone: 01-5091517</string>
+
+    <string name="oldagehome4_title">Dyomaa Old Age Home</string>
+    <string name="oldagehome4_desc">Dyomaa Old Age Home, Bode\n
+        Social welfare center in Madhyapur Thimi\n
+        Address: Bode-8\n
+        Phone: 01-6638013</string>
+
+    <string name="oldagehome5_title">Old age home in Kolkata - Shibasram</string>
+    <string name="oldagehome5_desc">Old age home in Kolkata - Shibasram\n
+        Retirement home in Kolkata, India\n
+        Address: 1250,survey park, Near Santoshpure Jora Bridge, Kolkata, West Bengal 700075, India\n
+        Phone: +91 99038 14392\n
+        Appointments: shibasram.org.in</string>
+
+    <string name="oldagehome6_title">Aravind Old Aged Home</string>
+    <string name="oldagehome6_desc"> Aravind Old Aged Home\n
+        Retirement home in Madurai, India\n
+        Address: V.R.V.Nagar Main Rd, Balaji Nagar, Bama Nagar, Madurai, Tamil Nadu 625017, India\n
+        Phone: +91 98411 08659</string>
+
+    <string name="oldagehome7_title">Old Age Home in Ernakulam</string>
+    <string name="oldagehome7_desc">Old Age Home in Ernakulam, Kochi, Kerala\n
+        Retirement home in India\n
+        Address: JRA-41, Karath Road Opp. MRF Tyre Service, Puthiya Kavu Valavu, Puthiyakavu, Thrippunithura, Ernakulam, Kerala 682301, India\n
+        Phone: +91 484 278 2960</string>
+
+
+
+
+
+</resources>

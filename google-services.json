@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "716555068775",
+    "firebase_url": "https://oldparentcare-online-default-rtdb.firebaseio.com",
+    "project_id": "oldparentcare-online",
+    "storage_bucket": "oldparentcare-online.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716555068775:android:098d7997607ffa56d4fbc2",
+        "android_client_info": {
+          "package_name": "com.singledeveloper.old_parentonlinecare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "716555068775-2hfrv4lv9aue3ch9lb4igk02okdm807s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXBeq-UT0nJLJLd6ZPQuYqOyahXBTbDUs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "716555068775-2hfrv4lv9aue3ch9lb4igk02okdm807s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

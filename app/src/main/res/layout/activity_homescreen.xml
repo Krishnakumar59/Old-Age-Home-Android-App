@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Homescreen"
+
+    />
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<ScrollView-->
+    <!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    tools:context=".Homescreen"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    >-->
+
+
+    <!--&lt;!&ndash;<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"&ndash;&gt;-->
+    <!--&lt;!&ndash;    xmlns:app="http://schemas.android.com/apk/res-auto"&ndash;&gt;-->
+    <!--&lt;!&ndash;    xmlns:tools="http://schemas.android.com/tools"&ndash;&gt;-->
+    <!--&lt;!&ndash;    android:layout_width="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;    android:layout_height="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;    tools:context=".Homescreen"&ndash;&gt;-->
+    <!--&lt;!&ndash;    android:orientation="vertical&ndash;&gt;-->
+    <!--&lt;!&ndash;">&ndash;&gt;-->
+    <!--&lt;!&ndash;    <TextView&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:layout_width="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:layout_height="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:textSize="19sp"&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:text="Krishna">&ndash;&gt;-->
+    <!--&lt;!&ndash;    &ndash;&gt;-->
+    <!--&lt;!&ndash;</androidx.constraintlayout.widget.ConstraintLayout>&ndash;&gt;-->
+
+    <!--<RelativeLayout-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    android:background="@drawable/mygradient"-->
+    <!--    tools:context=".Homescreen">-->
+    <!--&lt;!&ndash;    xmlns:app="http://schemas.android.com/apk/res-auto"&ndash;&gt;-->
+    <!--&lt;!&ndash;    android:paddingBottom="@dimen/activity_vertical_margin"&ndash;&gt;-->
+    <!--&lt;!&ndash;    android:paddingLeft="@dimen/activity_horizontal_margin"&ndash;&gt;-->
+    <!--&lt;!&ndash;    android:paddingRight="@dimen/activity_horizontal_margin"&ndash;&gt;-->
+    <!--&lt;!&ndash;    android:paddingTop="@dimen/activity_vertical_margin"&ndash;&gt;-->
+    <!--&lt;!&ndash;    android:background="@drawable/mygradient"&ndash;&gt;-->
+    <!--&lt;!&ndash;    tools:context=".Homescreen" >&ndash;&gt;-->
+    <!--&lt;!&ndash;    tools:context="com.example.test.scrollviews.MainActivity">&ndash;&gt;-->
+
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView"-->
+    <!--        android:layout_width="172dp"-->
+
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_gravity="center_horizontal"-->
+    <!--        android:text="Our Family Member"-->
+    <!--        android:textAppearance="?android:attr/textAppearanceMedium" />-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="fill_parent"-->
+    <!--            android:layout_height="fill_parent"-->
+    <!--            android:orientation="vertical" />-->
+
+
+    <!--</RelativeLayout>-->
+    <!--</ScrollView>-->
