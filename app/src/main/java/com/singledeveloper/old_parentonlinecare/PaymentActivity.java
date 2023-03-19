@@ -22,13 +22,16 @@ import com.razorpay.ExternalWalletListener;
 import com.razorpay.PaymentData;
 import com.razorpay.PaymentResultListener;
 import com.razorpay.PaymentResultWithDataListener;
-import com.razorpay.sampleapp.R;
+//import com.razorpay.sampleapp.R;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.w3c.dom.Text;
 
 //public class PaymentActivity extends AppCompatActivity {
+
+
+
 public class PaymentActivity extends Activity implements PaymentResultWithDataListener, ExternalWalletListener {
     private static final String TAG = PaymentActivity.class.getSimpleName();
     private AlertDialog.Builder alertDialogBuilder;
@@ -100,8 +103,8 @@ public class PaymentActivity extends Activity implements PaymentResultWithDataLi
         }else{
             try {
                 JSONObject options = new JSONObject();
-                options.put("name", "Razorpay Corp");
-                options.put("description", "Demoing Charges");
+                options.put("name", "Old-Age Foundation");
+                options.put("description", "Donation");
                 options.put("send_sms_hash",true);
                 options.put("allow_rotation", true);
                 //You can omit the image option to fetch the image from dashboard
@@ -110,8 +113,8 @@ public class PaymentActivity extends Activity implements PaymentResultWithDataLi
                 options.put("amount", "100");
 
                 JSONObject preFill = new JSONObject();
-                preFill.put("email", "test@razorpay.com");
-                preFill.put("contact", "9876543210");
+                preFill.put("email", "impeterparker399@gmail.com");
+                preFill.put("contact", "8003628804");
 
                 options.put("prefill", preFill);
 
