@@ -11,9 +11,12 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.OldParentOnlineCare">
-        <activity android:name=".ourgallery"
-            android:label="Our Gallery"/>
-
+        <activity
+            android:name=".PaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ourgallery"
+            android:label="Our Gallery" />
         <activity
             android:name=".oldagehome"
             android:label="Old Age Home" />
@@ -35,7 +38,6 @@
         <activity
             android:name=".DetailsUpload"
             android:label="Add Member" />
-
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

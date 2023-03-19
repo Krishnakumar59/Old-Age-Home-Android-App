@@ -14,15 +14,16 @@
         android:id="@+id/slogantextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:layout_gravity="center"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:fontFamily="@font/bariol_bold"
-        android:text="Give Better Life \n \t\t\tDonate Today"
+        android:text="Donate"
         android:textColor="#FA40B027"
         android:textSize="36sp" />
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -50,9 +51,8 @@
         android:layout_margin="35dp"
         android:layout_height="49dp"
         android:layout_gravity="center_horizontal"
-
-        android:text="❤️  Donate  ❤️"
-
+        android:text="Donate with Razorpay"
+        android:clickable="true"
         />
 
 
