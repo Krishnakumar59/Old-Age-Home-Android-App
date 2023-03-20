@@ -1,4 +1,4 @@
- package com.singledeveloper.old_parentonlinecare;
+package com.singledeveloper.old_parentonlinecare;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -22,7 +22,6 @@ public class MainHomeActivity extends AppCompatActivity {
     CardView thingstoknow;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,100 +30,48 @@ public class MainHomeActivity extends AppCompatActivity {
 
         addmember = findViewById(R.id.addmember);
         ourfamily = findViewById(R.id.ourfamily);
+        oldagehome = findViewById(R.id.oldagehome);
         donate = findViewById(R.id.donate);
-//        ourgallery = findViewById(R.id.ourgallery);
         contact = findViewById(R.id.contact);
         about = findViewById(R.id.about);
-        oldagehome = findViewById(R.id.oldagehome);
-//        thingstoknow = findViewById(R.id.thingstoknow);
 
 
-        // onclick listener for addmember to open new activity related to that
+        // onclick listener for add-member to open new activity related to that
         addmember.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                startActivity(new Intent(this,DetailsUpload.class));
-
-                startActivity(new Intent(MainHomeActivity.this,DetailsUpload.class));
+                startActivity(new Intent(MainHomeActivity.this, DetailsUpload.class));
 
             }
         });
 
-     // onclick listener for ourfamily to open new activity related to that
-        ourfamily.setOnClickListener(new View.OnClickListener() {               // Fetch Data From Database
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainHomeActivity.this,OurFamily.class));
+        // onclick listener for our family to open new activity related to that
+        // Fetch Data From Database
+        ourfamily.setOnClickListener(v -> startActivity(new Intent(MainHomeActivity.this, OurFamily.class)));
 
-
-            }
-        });
-
-// onclick listener for oldagehome to open new activity related to that
-        oldagehome.setOnClickListener(new View.OnClickListener() {               // Fetch Data From Database
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainHomeActivity.this,oldagehome.class));
-
-
-            }
-        });
+        // onclick listener for old age home to open new activity related to that
+        // Fetch Data From Database
+        oldagehome.setOnClickListener(v -> startActivity(new Intent(MainHomeActivity.this, oldagehome.class)));
 
         // onclick listener for donate to open new activity related to that
+        donate.setOnClickListener(v -> startActivity(new Intent(MainHomeActivity.this, donatescreen.class)));
 
-        donate.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainHomeActivity.this,donatescreen.class));
 
-            }
+        // onclick listener for contacts to open new activity related to that
+        contact.setOnClickListener(v -> {
+
+            // Code for call us directly to cellphone
+            String PhoneNo = "+977-9817894373";
+            Intent dial = new Intent();
+            dial.setAction("android.intent.action.DIAL");
+            dial.setData(Uri.parse("tel:" + PhoneNo));
+            startActivity(dial);
         });
-
-
-         // onclick listener for ourgallery to open new activity related to that
-//
-//        ourgallery.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                startActivity(new Intent(MainHomeActivity.this,ourgallery.class));
-//            }
-//        });
-
-
-           // onclick listener for contacts to open new activity related to that
-
-        contact.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                // COde for call us directly to cellphone
-
-                String PhoneNo="+977-9817894373";
-                Intent dial = new Intent();
-                dial.setAction("android.intent.action.DIAL");
-                dial.setData(Uri.parse("tel:"+PhoneNo));
-                startActivity(dial);
-
-
-
-            }
-        });
-
-        // onclick listener for things to know that open new activity related to that
-
-
 
         // onclick listener for about us to open new activity related to that
-
-        about.setOnClickListener(v -> startActivity(new Intent(MainHomeActivity.this,about.class)));
+        about.setOnClickListener(v -> startActivity(new Intent(MainHomeActivity.this, about.class)));
 
 
     }
-//  about.setOnClickListener(new View.OnClickListener() {
-//        @Override
-//        public void onClick(View v) {
-//            startActivity(new Intent(MainHomeActivity.this,about.class));
-
-
 
 }
