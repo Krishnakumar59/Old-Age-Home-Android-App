@@ -1,5 +1,5 @@
 
-# Old-Age-Home(Android App)
+## Old-Age-Home(Android App)
 
 Android app that helps to find old-age home.
 
@@ -10,6 +10,7 @@ The old-Age Home app helps people to see old-age homes nearby.
 It also gives details about an old-age home location, no people staying inside, and even people can donate for the cause.
 User can install this application for old aged people for finding their perfect home in order so that they don’t have to suffer. 
 After it is done then it will automatically show the nearest old-Age home located within a certain area and we can proceed further through it.
+Integrated the Razorpay payment gateway to enable seamless and secure donation processing.
 
 
 ## Tech Stack
@@ -21,7 +22,6 @@ After it is done then it will automatically show the nearest old-Age home locate
 
 ## Roadmap
 
-- Payment gateway support 
 
 - Add more integrations
 
