@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/mygradient"
+    android:background="#E4D7D7"
     android:orientation="vertical"
     tools:context=".DetailsUpload">
 

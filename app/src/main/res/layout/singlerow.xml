@@ -6,13 +6,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardCornerRadius="5dp"
     android:elevation="5dp"
-    android:background="@drawable/mygradient"
+    android:background="#E4D7D7"
     app:cardUseCompatPadding="true">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="117dp"
-        android:background="@drawable/mygradient"
+        android:background="#E4D7D7"
         android:padding="15dp">
 
         <de.hdodenhof.circleimageview.CircleImageView

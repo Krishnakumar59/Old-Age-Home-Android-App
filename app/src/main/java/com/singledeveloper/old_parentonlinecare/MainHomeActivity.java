@@ -8,10 +8,7 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
-
 public class MainHomeActivity extends AppCompatActivity {
-
-
     CardView addmember;
     CardView ourfamily;
     CardView donate;
