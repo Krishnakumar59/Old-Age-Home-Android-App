@@ -12,7 +12,7 @@ public class
 DetailsUpload extends AppCompatActivity {
 
 
-    String name, gender, address,age,phone,family_phone,health;
+    String name, gender, address, age, phone, family_phone, health;
 
     EditText nameInput;
     EditText ageInput;
@@ -57,7 +57,6 @@ DetailsUpload extends AppCompatActivity {
         family_phone = sondaughterphoneInput.getText().toString();
 
 
-
 //        // Get User health condition
 //        healthInput = findViewById(R.id.healthInputxml);
 ////        family_phone = Integer.parseInt(nameInput.getText().toString());
@@ -70,9 +69,9 @@ DetailsUpload extends AppCompatActivity {
         // Use an intent to launch an email app.
         // Send the order summary in the email body.
         Intent intent = new Intent(Intent.ACTION_SENDTO);
-        intent.setData(Uri.parse("mailto:"+"AppXStudioinc@gmail.com")); // only email apps should handle this
+        intent.setData(Uri.parse("mailto:" + "AppXStudioinc@gmail.com")); // only email apps should handle this
 //        intent.setData(Uri.parse("mailto:")); // only email apps should handle this
-        intent.putExtra(Intent.EXTRA_SUBJECT,getString(R.string.summary_email_subject));
+        intent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.summary_email_subject));
         intent.putExtra(Intent.EXTRA_TEXT, message);
 
         if (intent.resolveActivity(getPackageManager()) != null) {
@@ -80,7 +79,7 @@ DetailsUpload extends AppCompatActivity {
         }
     }
 
-    private String Summarydetails(String name,String age,String gender, String address, String phone, String family_phone) {
+    private String Summarydetails(String name, String age, String gender, String address, String phone, String family_phone) {
 
         String FinalMessage = getString(R.string.name_of_person, name);
         FinalMessage += "\n" + getString(R.string.age_of_person, age);

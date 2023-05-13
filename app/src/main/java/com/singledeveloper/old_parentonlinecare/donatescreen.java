@@ -6,7 +6,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import androidx.appcompat.app.AppCompatActivity;
+
 import com.razorpay.Checkout;
 import com.razorpay.PaymentResultListener;
 
@@ -62,6 +64,7 @@ public class donatescreen extends AppCompatActivity implements PaymentResultList
             e.printStackTrace();
         }
     }
+
     /**
      * @param s
      */
@@ -75,6 +78,7 @@ public class donatescreen extends AppCompatActivity implements PaymentResultList
             e.printStackTrace();
         }
     }
+
     /**
      * @param i
      * @param s

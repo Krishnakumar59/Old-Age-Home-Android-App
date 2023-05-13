@@ -27,6 +27,6 @@ public class intro2nd extends AppCompatActivity {
                 startActivity(intent_for_home);
                 finish();
             }
-        },2000);
+        }, 2000);
     }
 }

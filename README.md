@@ -45,9 +45,6 @@ Android Studio download all the required dependency automatically
 Run the app in Phone🥳🥳🥳
 
 
-
-
-
 ## Screenshots
 
 ![Home Screenshot](https://github.com/Krishnakumar59/Old-Age-Home-Android-App/blob/master/app/src/main/res/drawable/home.png)

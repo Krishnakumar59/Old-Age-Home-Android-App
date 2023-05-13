@@ -1,13 +1,11 @@
 package com.singledeveloper.old_parentonlinecare;
 
 public class model {
+    String name, age, gender, contact, address, purl;
 
-    String name, age, gender,contact, address, purl;
-
-    model(){
+    model() {
 
     }
-
 
     public model(String name, String age, String gender, String contact, String address, String purl) {
         this.name = name;

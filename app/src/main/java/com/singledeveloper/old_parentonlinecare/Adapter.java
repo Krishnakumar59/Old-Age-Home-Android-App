@@ -17,7 +17,8 @@ import ru.embersoft.expandabletextview.ExpandableTextView;
 public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
     private ArrayList<Item> items;
     private Context context;
-    public Adapter(ArrayList<Item> items, Context context){
+
+    public Adapter(ArrayList<Item> items, Context context) {
         this.items = items;
         this.context = context;
 
@@ -38,13 +39,13 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
         holder.imageView.setImageResource(item.getImageResource());
         holder.titleTextView.setText(item.getTitle());
         holder.descTextView.setText(item.getDesc());
-        holder.descTextView.setOnStateChangeListener(new ExpandableTextView.OnStateChangeListener(){
+        holder.descTextView.setOnStateChangeListener(new ExpandableTextView.OnStateChangeListener() {
 
             @Override
-            public void onStateChange(boolean isShrink){
-               Item contentItem = items.get(position);
-               contentItem.setShrink(isShrink);
-               items.set(position, contentItem);
+            public void onStateChange(boolean isShrink) {
+                Item contentItem = items.get(position);
+                contentItem.setShrink(isShrink);
+                items.set(position, contentItem);
 
             }
 
@@ -52,7 +53,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
         holder.descTextView.setText(item.getDesc());
         holder.descTextView.resetState(item.isShrink());
 
-   }
+    }
 
 
     @Override
@@ -60,7 +61,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
         return items.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder{
+    public class ViewHolder extends RecyclerView.ViewHolder {
 
         ImageView imageView;
         ExpandableTextView descTextView;
@@ -72,7 +73,6 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
             imageView = itemView.findViewById(R.id.imageView);
             descTextView = itemView.findViewById(R.id.descTextView);
             titleTextView = itemView.findViewById(R.id.titleTextView);
-
 
 
         }
